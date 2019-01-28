@@ -42,15 +42,16 @@ flutter:
   assets:
     - assets/batsman.jpg
     - assets/team.jpg
+    - assets/helmet.png
+    - assets/ball3.png
     - assets/team2.jpg
-    - assets/batsman.jpg
     - assets/ball.png
     - assets/ball.jpg
     - assets/ball2.png
     - assets/cricketbg.jpg
     - assets/bg2.jpeg
     - assets/bg3.jpg
-    - assets/bg4.jpg
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

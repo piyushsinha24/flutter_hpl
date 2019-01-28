@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import './teams.dart';
 import './schedule.dart';
+import './faq.dart';
+import './stats.dart';
+import './leaderbord.dart';
+
 class OverviewPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -36,7 +40,7 @@ class OverviewPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -57,13 +61,16 @@ class OverviewPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => LeaderBoard()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
                   'Leaderboard',
@@ -75,13 +82,37 @@ class OverviewPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => StatsPage()));
+                },
+                icon: Icon(Icons.list),
+                label: Text(
+                  'Stats',
+                  style: TextStyle(
+                    fontSize: 40.0,
+                    fontStyle: FontStyle.italic,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                shape: new RoundedRectangleBorder(
+                    borderRadius: new BorderRadius.circular(500.0)),
+                splashColor: Colors.red,
+                textColor: Colors.white,
+                color: Colors.blue,
+              ),
+              SizedBox(height: 10.0,),
+              RaisedButton.icon(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => FaqPage()));
+                },
                 icon: Icon(Icons.info_outline),
                 label: Text(
                   'FAQ',
@@ -93,13 +124,15 @@ class OverviewPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+
+                },
                 icon: Icon(Icons.phone),
                 label: Text(
                   'Contact',
@@ -111,7 +144,7 @@ class OverviewPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),

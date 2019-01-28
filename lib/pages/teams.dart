@@ -31,7 +31,7 @@ class TeamPage extends StatelessWidget {
                 },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 1',
+                  'Rider 11',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -40,7 +40,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -51,7 +51,7 @@ class TeamPage extends StatelessWidget {
                 },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 2',
+                  'Babumoshai',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -60,7 +60,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -69,7 +69,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 3',
+                  'The Falcons',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -78,7 +78,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -87,7 +87,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 4',
+                  'Khilji 2.0',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -96,7 +96,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -111,7 +111,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 5',
+                  '..............',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -120,7 +120,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -131,7 +131,7 @@ class TeamPage extends StatelessWidget {
                 },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 2',
+                  'Phantoms',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -140,7 +140,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -149,7 +149,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 3',
+                  'Knights',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -158,7 +158,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),
@@ -167,7 +167,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Team 4',
+                  'Baba',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -176,7 +176,7 @@ class TeamPage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.yellow,
+                splashColor: Colors.red,
                 textColor: Colors.white,
                 color: Colors.blue,
               ),

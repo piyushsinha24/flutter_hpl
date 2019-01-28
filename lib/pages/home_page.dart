@@ -41,7 +41,7 @@ class HomePage extends StatelessWidget {
                 ),
                 shape: new RoundedRectangleBorder(
                     borderRadius: new BorderRadius.circular(500.0)),
-                splashColor: Colors.white,
+                splashColor: Colors.white70,
                 textColor: Colors.white,
                 color: Colors.transparent,
               ),
