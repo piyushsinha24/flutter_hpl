@@ -3,7 +3,7 @@ import './teams.dart';
 import './schedule.dart';
 import './faq.dart';
 import './stats.dart';
-import './leaderbord.dart';
+import './leaderboard.dart';
 
 class OverviewPage extends StatelessWidget {
   @override
