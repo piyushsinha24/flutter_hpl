@@ -13,7 +13,7 @@ class SchedulePage extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: new Text('Schedule'),
-          leading: (Image.asset('assets/ball.jpg')),
+    leading: (Image.asset('assets/ball.jpg')),
           bottom: TabBar(
             tabs: <Widget>[
               Tab(
