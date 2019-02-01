@@ -1,5 +1,12 @@
 import 'package:flutter/material.dart';
 import './teamdetails/phantoms.dart';
+import './teamdetails/rider.dart';
+import './teamdetails/rajput.dart';
+import './teamdetails/falcons.dart';
+import './teamdetails/khilji.dart';
+import './teamdetails/runmachine.dart';
+import './teamdetails/knights.dart';
+import './teamdetails/baba.dart';
 
 class TeamPage extends StatelessWidget {
   @override
@@ -29,11 +36,12 @@ class TeamPage extends StatelessWidget {
               ),),
               RaisedButton.icon(
                 onPressed: () {
-
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Riders()));
                 },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Rider 11',
+                  'Riders 11',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -49,7 +57,8 @@ class TeamPage extends StatelessWidget {
               SizedBox(height: 10.0,),
               RaisedButton.icon(
                 onPressed: () {
-
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Rajput()));
                 },
                 icon: Icon(Icons.list),
                 label: Text(
@@ -68,10 +77,13 @@ class TeamPage extends StatelessWidget {
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Falcons()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'The Falcons',
+                  'Falcons',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -86,7 +98,10 @@ class TeamPage extends StatelessWidget {
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Khilji()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
                   'Khilji 2.0',
@@ -110,7 +125,10 @@ class TeamPage extends StatelessWidget {
                 color: Colors.white,
               ),),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => RunMachine()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
                   'Run Machine',
@@ -149,10 +167,13 @@ class TeamPage extends StatelessWidget {
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) =>Knights()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Knights',
+                  'The Knights',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -167,7 +188,10 @@ class TeamPage extends StatelessWidget {
               ),
               SizedBox(height: 10.0,),
               RaisedButton.icon(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Baba()));
+                },
                 icon: Icon(Icons.list),
                 label: Text(
                   'Baba',
