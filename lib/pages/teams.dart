@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './teamdetails/phantoms.dart';
 
 class TeamPage extends StatelessWidget {
   @override
@@ -11,6 +12,7 @@ class TeamPage extends StatelessWidget {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
+            colorFilter: ColorFilter.mode(Colors.white70, BlendMode.color),
             image: AssetImage('assets/team.jpg'),
             fit: BoxFit.cover,
           ),
@@ -51,7 +53,7 @@ class TeamPage extends StatelessWidget {
                 },
                 icon: Icon(Icons.list),
                 label: Text(
-                  'Babumoshai',
+                  'Rajput 11',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -111,7 +113,7 @@ class TeamPage extends StatelessWidget {
                 onPressed: () {},
                 icon: Icon(Icons.list),
                 label: Text(
-                  '..............',
+                  'Run Machine',
                   style: TextStyle(
                     fontSize: 40.0,
                     fontStyle: FontStyle.italic,
@@ -127,7 +129,8 @@ class TeamPage extends StatelessWidget {
               SizedBox(height: 10.0,),
               RaisedButton.icon(
                 onPressed: () {
-
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Phantoms()));
                 },
                 icon: Icon(Icons.list),
                 label: Text(
