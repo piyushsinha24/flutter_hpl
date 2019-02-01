@@ -70,7 +70,7 @@ class FaqPage extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Text('4. Man Of The Match awards, Best Batsman, Best Bowler.',style: TextStyle(fontSize: 20.0),),
+                        child: Text('4. Man Of The Match, Best Batsman, Best Bowler.',style: TextStyle(fontSize: 20.0),),
                       ),
                     ],
                   ),
