@@ -58,7 +58,7 @@ class FaqPage extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
-                        child: Text('1. Finalists receive trophies along with a prize money.',style: TextStyle(fontSize: 20.0),),
+                        child: Text('1. Finalist teams receive trophies along with a prize money.',style: TextStyle(fontSize: 20.0),),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
