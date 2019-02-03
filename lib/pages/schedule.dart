@@ -32,7 +32,7 @@ class SchedulePage extends StatelessWidget {
           ),
         ),
         body: TabBarView(
-          children: <Widget>[PastPage(),TodayPage(),UpcomingPage()],
+          children: <Widget>[PastPage(),TodaysPage(),UpcomingPage()],
         ),
       ),
     );
