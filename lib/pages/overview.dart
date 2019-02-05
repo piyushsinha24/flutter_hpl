@@ -4,6 +4,7 @@ import './schedule.dart';
 import './faq.dart';
 import './stats.dart';
 import './leaderboard.dart';
+import './contacts.dart';
 
 class OverviewPage extends StatelessWidget {
   @override
@@ -131,7 +132,8 @@ class OverviewPage extends StatelessWidget {
               SizedBox(height: 10.0,),
               RaisedButton.icon(
                 onPressed: () {
-
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Contacts()));
                 },
                 icon: Icon(Icons.phone),
                 label: Text(

@@ -51,6 +51,7 @@ class _TodaysPageState extends State<TodaysPage> {
     return Container(
       margin: EdgeInsets.all(10.0),
       child: Card(
+        color: Colors.red,
         child: Container(
           padding: EdgeInsets.all(25.0),
           child: Row(
@@ -60,7 +61,7 @@ class _TodaysPageState extends State<TodaysPage> {
                   children: <Widget>[
                     Text(matchList[index].firstTeam,
                         style: TextStyle(
-                            fontSize: 25.0, fontWeight: FontWeight.bold)),
+                            fontSize: 25.0, fontWeight: FontWeight.bold,color: Colors.white,)),
                     SizedBox(
                       height: 15.0,
                     ),
@@ -70,14 +71,14 @@ class _TodaysPageState extends State<TodaysPage> {
               ),
               Text(
                 'vs',
-                style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 15.0, fontWeight: FontWeight.bold,color: Colors.white,),
               ),
               Expanded(
                 child: Column(
                   children: <Widget>[
                     Text(matchList[index].secondTeam,
                         style: TextStyle(
-                            fontSize: 25.0, fontWeight: FontWeight.bold)),
+                            fontSize: 25.0, fontWeight: FontWeight.bold,color: Colors.white,)),
                     SizedBox(
                       height: 15.0,
                     ),

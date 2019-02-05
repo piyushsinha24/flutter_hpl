@@ -25,7 +25,7 @@ class RunMachine extends StatelessWidget {
                   padding: EdgeInsets.all(8.0),
                   child: new Row(
                     children: <Widget>[
-                      Image.asset('assets/ved.jpg',height: 80.0,width: 80.0,),
+                      Image.asset('assets/debanjan.jpeg',height: 80.0,width: 80.0,),
                       Padding(
                         padding: const EdgeInsets.all(5.0),
                         child: Text(
