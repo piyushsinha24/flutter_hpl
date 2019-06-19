@@ -1,4 +1,3 @@
-This app is used to refer to all the current statistics and fixtures of the ongoing edition of Hostel Premier League, an yearly cricket tournament held for the boarders of the campus hostel during the even semesters.
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
+# HPL@AOT
+# [Get It on Google Play](https://play.google.com/store/apps/details?id=devPS.hpl)
+<img src="hpl1.png" width="100"><img src="hpl2.png" width="100"><img src="hpl3.png" width="100"><img src="hpl4.png" width="100"><img src="hpl5.png" width="100">
